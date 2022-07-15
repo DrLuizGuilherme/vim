@@ -1,0 +1,5 @@
+ bindsym $mod+n exec flatpak run org.mozilla.firefox
+ bindsym $mod+q exec shutdown now
+ exec feh --bg-scale /home/luizguilherme/Pictures/fundoi3.png
+ new_window none
+ exec --no-startup-id setxkbmap br,us -option 'grp:alt_shift_toggle'   
