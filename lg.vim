@@ -5,16 +5,6 @@ if exists("syntax_on")
  
 endif
 
-set autoindent
-set noexpandtab
-set tabstop=4
-set shiftwidth=4
-set foldtext=v:\ 
-set foldmethod=indent
-set background=dark
-set cursorline
-set foldcolumn=3
-set fillchars=eob:\ ,fold:\ ,foldopen:▾,foldsep:\ ,foldclose:▸  
 let g:colors_name="lg"
 
 hi pythonNumber ctermfg=209
